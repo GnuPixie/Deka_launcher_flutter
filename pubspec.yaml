@@ -1,0 +1,25 @@
+name: launcher
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: any
+  contacts_service_plus: any
+  permission_handler: any
+  phone_number: any
+  flutter_phone_direct_caller: any
+  call_log: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
